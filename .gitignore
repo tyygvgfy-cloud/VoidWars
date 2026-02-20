@@ -1,0 +1,21 @@
+# Скомпилированные файлы (мусор)
+target/
+bin/
+gen/
+out/
+*.class
+*.dex
+*.apk
+
+# Файлы настроек IDE (Android Studio / AIDE / IntelliJ)
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.iws
+
+# Временные файлы
+*.log
+.gradle/
+build/
