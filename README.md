@@ -23,12 +23,25 @@
 
 ## 🚀 Commands & Permissions
 
+### Player Commands
 | Command | Description | Permission |
 | :--- | :--- | :--- |
 | `/voidwars join <arena>` | Join a game in the specified arena | `voidwars.player` |
-| `/voidwars create <name>` | Create a new arena | `voidwars.admin` |
-| `/voidwars setlobby <name>` | Set the lobby point for an arena | `voidwars.admin` |
-| `/voidwars reload` | Reload configs and scoreboard | `voidwars.admin` |
+| `/voidwars leave` | Leave the current game and return to lobby | `voidwars.player` |
+| `/voidwars list` | Show all available game arenas | `voidwars.player` |
+| `/voidwars stats` | View your personal game statistics | `voidwars.player` |
+
+### Admin Commands
+| Command | Description | Permission |
+| :--- | :--- | :--- |
+| `/voidwars create <name>` | Create a new arena map | `voidwars.admin` |
+| `/voidwars delete <name>` | Completely remove an arena | `voidwars.admin` |
+| `/voidwars setlobby <name>` | Set the waiting lobby point | `voidwars.admin` |
+| `/voidwars setspawn <arena> <team>` | Set spawn point for a specific team | `voidwars.admin` |
+| `/voidwars setbed <arena> <team>` | Set bed location for a specific team | `voidwars.admin` |
+| `/voidwars reload` | Reload all configs and scoreboard | `voidwars.admin` |
+| `/voidwars start <arena>` | Force start the game on an arena | `voidwars.admin` |
+| `/voidwars stop <arena>` | Force stop the game on an arena | `voidwars.admin` |
 
 ---
 
