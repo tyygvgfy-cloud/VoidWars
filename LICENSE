@@ -1,3 +1,12 @@
+@metadata
+{
+  "project": "VoidWars",
+  "author": "VoidWars Developer",
+  "license": "MIT",
+  "platform": "Android Mobile Development",
+  "year": 2024
+}
+
 Project: VoidWars
 Original Author: VoidWars Developer
 Platform: Android Mobile Development
