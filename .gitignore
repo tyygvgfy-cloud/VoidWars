@@ -1,21 +1,17 @@
-# Скомпилированные файлы (мусор)
-target/
+# Специфично для Android-редакторов (AIDE и др.)
+.navigation/
 bin/
 gen/
-out/
-*.class
-*.dex
+obj/
 *.apk
 
-# Файлы настроек IDE (Android Studio / AIDE / IntelliJ)
+# Стандарт для Java/Maven
+target/
+*.class
+
+# Если используешь IntelliJ или Android Studio на телефоне
 .idea/
+*.iml
 .project
 .classpath
 .settings/
-*.iml
-*.iws
-
-# Временные файлы
-*.log
-.gradle/
-build/
